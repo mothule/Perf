@@ -4,6 +4,19 @@ Simple and swifty performance measure.
 
 ## Usage
 
+Download file from GitHub.
+
+```sh
+$ curl -s https://raw.githubusercontent.com/mothule/Perf/master/Perf.swift -o ~/Downloads/Perf.swift
+```
+
+### Why download
+
+This file is supposed to be used for a little research.
+So Therefore, we exclude library and small and difficult structures.
+
+### How to use
+
 ```swift
 var results: [Perf.Result] = []
 
